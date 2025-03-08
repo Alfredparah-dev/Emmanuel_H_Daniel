@@ -171,6 +171,14 @@
 .project-card .card-body {
     padding: 1rem;
 }
+.about-me-section img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
 .about-me-section {
     background: linear-gradient(to right, #082300, #2e0603, #010000);
    

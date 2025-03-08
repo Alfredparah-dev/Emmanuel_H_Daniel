@@ -20,7 +20,7 @@ $(document).ready(function(){
         if (data.ok) {
             document.getElementById("formResponse").innerHTML = "✅ Message sent successfully!";
             document.getElementById("formResponse").style.display = "block";
-            this.reset(); // Clear form fields
+            this.reset();   
         } else {
             document.getElementById("formResponse").innerHTML = "❌ Error sending message. Try again.";
             document.getElementById("formResponse").style.display = "block";
